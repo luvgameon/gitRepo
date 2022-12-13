@@ -16,3 +16,12 @@ console.log(sum1.apply(student,arr));
  var bound=sum1.bind(student);
 console.log(bound(1,2,3));
 
+// sencond task 
+let multiply = function(x,y)
+{
+    console.log(x * y);
+}
+let multiplyBytwo = multiply.bind(this,2);
+multiplyBytwo(9);
+
+
